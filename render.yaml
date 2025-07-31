@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: ai-signal-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    plan: free
